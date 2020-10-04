@@ -4,9 +4,19 @@
   "description": "Flashcard component for React",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "start": "parcel watch src/index.ts",
+    "build": "parcel build src/index.ts --global react-flashcard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David Futcher <david@futcher.io> & Roosa Paivansalo",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.0",
+    "typescript": "^4.0.3"
+  }
 }
