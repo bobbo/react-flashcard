@@ -1,1 +1,3 @@
-console.log('Hello, World!');
+import { Flashcard } from "./Flashcard";
+
+export { Flashcard };

@@ -1,5 +1,5 @@
 import * as React from 'react';
 
-const Flashcard: React.FC = () => {
-    return <></>;
+export const Flashcard: React.FC = () => {
+    return <>"Hello World!"</>;
 };
