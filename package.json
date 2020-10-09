@@ -6,6 +6,7 @@
   "scripts": {
     "start": "parcel watch src/index.ts",
     "build": "parcel build src/index.ts --global react-flashcard",
+    "demo": "parcel example/index.html --out-dir examples/dist --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David Futcher <david@futcher.io> & Roosa Paivansalo",
@@ -17,6 +18,7 @@
     "@types/react": "^16.0",
     "parcel-bundler": "^1.12.4",
     "react": "^16.0",
+    "react-dom": "^16.0",
     "typescript": "^4.0.3"
   }
 }
