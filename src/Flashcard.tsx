@@ -1,5 +1,11 @@
 import * as React from 'react';
 
-export const Flashcard: React.FC = () => {
-    return <>"Hello World!"</>;
+interface IFlashcardProps { 
+    id?: string
+}
+
+export const Flashcard: React.FC<IFlashcardProps> = (props) => {
+    return <div id={props.id || "flashcard"}>
+        Hello World!
+    </div>;
 };
