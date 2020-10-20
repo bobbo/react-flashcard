@@ -4,7 +4,10 @@ import { hydrate } from 'react-dom';
 import { Flashcard } from '../src/Flashcard';
 
 const Demo = () => (
-    <Flashcard />
+    <Flashcard
+        front={<p>Front</p>}
+        back={<p>Back</p>}
+    />
 )
 
 hydrate(<Demo />, document.getElementById('example'));
